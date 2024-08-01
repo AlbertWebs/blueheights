@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Eventer - HTML 5 Template Preview</title>
+<title>Blueheights - HTML 5 Template Preview</title>
 
 <!-- Fav Icon -->
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -126,21 +126,21 @@
                                         <li class="current dropdown"><a href="#">Home</a>
 
                                         </li>
-                                        <li class="dropdown"><a href="#">About</a>
+                                        <li class="dropdown"><a href="#about">About</a>
 
                                         </li>
 
                                         <li class="dropdown"><a href="#">Portfolio</a>
 
                                         </li>
-                                        <li><a href="contact.html">Services</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="#services">Services</a></li>
+                                        <li><a href="#contact">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <div class="btn-box mr_40"><a href="{{url('/')}}" class="theme-btn btn-one">Purchase Ticket</a></div>
+                            <div class="btn-box mr_40"><a href="tel:+254 723 280 2602" class="theme-btn btn-one"><i class="fa fa-phone"></i> Get in Touch</a></div>
                             <ul class="social-links">
                                 <li><a href="{{url('/')}}"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="{{url('/')}}"><i class="fab fa-twitter"></i></a></li>
@@ -164,7 +164,7 @@
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <div class="btn-box mr_40"><a href="{{url('/')}}" class="theme-btn btn-one">Purchase Ticket</a></div>
+                            <div class="btn-box mr_40"><a href="tel:+254 723 280 2602" class="theme-btn btn-one"><i class="fa fa-phone"></i> Get in Touch</a></div>
                             <ul class="social-links">
                                 <li><a href="{{url('/')}}"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="{{url('/')}}"><i class="fab fa-twitter"></i></a></li>
@@ -213,7 +213,7 @@
         <section class="banner-style-two">
             <div class="banner-carousel owl-theme owl-carousel owl-dots-none owl-nav-none">
                 <div class="slide-item p_relative">
-                    <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/banner/banner-1.jpg')}}');"></div>
+                    <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/IMG_20240419_111446.png')}}');"></div>
                     <div class="pattern-layer">
                         <div class="pattern-1" style="background-image: url('{{asset('theme/assets/images/shape/shape-23.png')}}');"></div>
                         <div class="pattern-2" style="background-image: url('{{asset('theme/assets/images/shape/shape-24.png')}}');"></div>
@@ -224,17 +224,19 @@
                     </div>
                     <div class="auto-container">
                         <div class="content-box">
-                            <span class="date"><img src="{{asset('theme/assets/images/icons/icon-1.png')}}" alt="">September 21th-24th,</span>
-                            <h2>Digital Business <span>Conferences</span></h2>
-                            <p>Nulla in mattis arcu ultrices suspendisse sed amet pulvinarert aliquam. Condimentum congue morbi risus platea. Ante elittg dolor augue tellus turpis tortor</p>
+                            {{-- <span class="date"><img src="{{asset('theme/assets/images/icons/icon-1.png')}}" alt="">September 21th-24th,</span> --}}
+                            <h2>Creating Unforgettable  <span>Corporate Experience</span></h2>
+                            <p>
+                                At The Blue Heights Events Ltd, we specialize in turning your corporate events into unforgettable experiences. From innovative design of exhibition floor plans to the provision of quality shell scheme structures, our comprehensive services ensure your brand is effectively promoted. Trust us to deliver exceptional media coverage and top-notch conferencing equipment for seamless events that leave a lasting impression.
+                            </p>
                             <div class="btn-box">
-                                <a href="{{url('/')}}" class="theme-btn btn-one">Purchase Ticket</a>
+                                <a href="{{url('/')}}#about" class="theme-btn btn-one">Learn More</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="slide-item p_relative">
-                    <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/banner/banner-2.jpg')}}');"></div>
+                    <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/Thandi-Photography-24.jpg')}}');"></div>
                     <div class="pattern-layer">
                         <div class="pattern-1" style="background-image: url('{{asset('theme/assets/images/shape/shape-23.png')}}');"></div>
                         <div class="pattern-2" style="background-image: url('{{asset('theme/assets/images/shape/shape-24.png')}}');"></div>
@@ -244,11 +246,13 @@
                     </div>
                     <div class="auto-container">
                         <div class="content-box">
-                            <span class="date"><img src="{{asset('theme/assets/images/icons/icon-1.png')}}" alt="">September 21th-24th,</span>
-                            <h2>Digital Business <span>Conferences</span></h2>
-                            <p>Nulla in mattis arcu ultrices suspendisse sed amet pulvinarert aliquam. Condimentum congue morbi risus platea. Ante elittg dolor augue tellus turpis tortor</p>
+                            {{-- <span class="date"><img src="{{asset('theme/assets/images/icons/icon-1.png')}}" alt="">September 21th-24th,</span> --}}
+                            <h2>Exceeding Expectations in  <span>Event Management</span></h2>
+                            <p>
+                                At The Blue Heights Events Ltd, we go beyond managing events—we create memorable experiences that resonate with your audience. Our dedicated team provides comprehensive services, from crafting intricate exhibition floor plans to delivering high-quality shell scheme structures and media coverage. We prioritize your needs and strive to exceed expectations with every event, ensuring your brand shines.
+                            </p>
                             <div class="btn-box">
-                                <a href="{{url('/')}}" class="theme-btn btn-one">Purchase Ticket</a>
+                                <a href="{{url('/')}}#about" class="theme-btn btn-one">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -258,7 +262,7 @@
         <!-- banner-style-two end -->
 
     <!-- about-style-two -->
-    <section class="about-style-two pt_120 pb_120">
+    <section class="about-style-two pt_120 pb_120" id="about">
         <div class="pattern-11"></div>
         <div class="pattern-layer">
             <div class="pattern-1"></div>
@@ -269,7 +273,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title mb_20">
-                            <span class="sub-title"># About The Events</span>
+                            <span class="sub-title"># About Us</span>
                             <h3>Premium Event Management Services for Corporate Clients by The Blue Heights Events Ltd</h3>
                         </div>
                         <div class="text-boxs">
@@ -292,7 +296,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                     <div class="image-box">
-                        <figure class="image image-1"><img src="{{asset('theme/assets/images/resource/about-4.jpg')}}" alt=""></figure>
+                        <figure class="image image-1"><img src="{{asset('theme/assets/images/IMG_20220419_111200.png')}}" alt=""></figure>
                     </div>
                 </div>
             </div>
@@ -301,7 +305,7 @@
     <!-- about-style-two end -->
 
      <!-- gallery-section -->
-    <section  class="gallery-section p_120" >
+    <section  class="gallery-section p_120" id="services">
         <div class="pattern-111"></div>
         <div class="auto-container">
             <div class="row align-items-center">
@@ -312,13 +316,16 @@
                             <h3>Comprehensive Corporate Event <br> Management  Solutions</h3>
                         </div>
                         <br>
-                        <p>With Passion, Knowledge, Experience , Creative & Inspiration.</p>
+                        <p>
+                            {{-- With Passion, Knowledge, Experience , Creative & Inspiration. --}}
+                            With passion at our core and a wealth of knowledge and experience guiding us, we channel our creativity and inspiration to innovate and craft impactful solutions that resonate deeply with our audience.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 gallery-block">
                     <div class="gallery-block-one ml_40">
                         <div class="inner-box">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/gallery/gallery-2.jpg')}}'); background-size:cover;"></div>
+                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/Thandi-Photography-17.jpg')}}'); background-size:cover; background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
                             <h2><a href="{{url('/')}}">Corporate Events</a></h2>
                             <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
                         </div>
@@ -328,8 +335,8 @@
                 {{--  --}}
                 <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
                     <div class="gallery-block-one">
-                        <div class="inner-box">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/gallery/gallery-3.jpg')}}');"></div>
+                        <div class="inner-box min-500">
+                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/a7.jpeg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
                             <h2><a href="{{url('/')}}">Exhibition Booths</a></h2>
                             <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
                         </div>
@@ -337,8 +344,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
                     <div class="gallery-block-one">
-                        <div class="inner-box">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/gallery/gallery-4.jpg')}}');"></div>
+                        <div class="inner-box min-500">
+                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/Turf.png')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
                             <h2><a href="{{url('/')}}">Events Logistics</a></h2>
                             <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
                         </div>
@@ -346,18 +353,51 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
                     <div class="gallery-block-one">
-                        <div class="inner-box">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/gallery/gallery-5.jpg')}}');"></div>
+                        <div class="inner-box min-500">
+                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/20230623_140625.jpg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
                             <h2><a href="{{url('/')}}">Branding</a></h2>
                             <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
                         </div>
                     </div>
                 </div>
+                {{--  --}}
+                <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
+                    <div class="gallery-block-one">
+                        <div class="inner-box min-500">
+                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/20230623_141436.jpg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
+                            <h2><a href="{{url('/')}}">Online and Onsite
+                                Registration</a></h2>
+                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
+                    <div class="gallery-block-one">
+                        <div class="inner-box min-500">
+                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/pexels-ninosouza-2883051.jpg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
+                            <h2><a href="{{url('/')}}">Live Streaming</a></h2>
+                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
+                    <div class="gallery-block-one">
+                        <div class="inner-box min-500">
+                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/20230810_003453.jpg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
+                            <h2><a href="{{url('/')}}">Audio Visual
+                                Equipment</a></h2>
+                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                {{--  --}}
+
+
 
             </div>
         </div>
         <center>
-            <a href="{{url('/')}}" class="theme-btn btn-one">Explore More</a>
+            <a href="{{url('/')}}#more-our-services" class="theme-btn btn-one">Explore More Services</a>
         </center>
 
     </section>
@@ -389,57 +429,62 @@
         <!-- clients-style-two end -->
 
         <!-- conference-style-two -->
-        <section class="conference-style-two pt_140 pb_140">
-            <div class="bg-layer" style="background-image: url(assets/images/background/conference-bg.jpg);"></div>
+        <section class="conference-style-two pt_140 pb_140" id="more-our-services">
+            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/a1.jpeg')}}');"></div>
             <div class="pattern-layer">
-                <div class="pattern-1" style="background-image: url(assets/images/shape/shape-35.png);"></div>
-                <div class="pattern-2" style="background-image: url(assets/images/shape/shape-36.png);"></div>
+                <div class="pattern-1" style="background-image: url('{{asset('theme/assets/images/shape/shape-35.png')}}');"></div>
+                <div class="pattern-2" style="background-image: url('{{asset('theme/assets/images/shape/shape-36.png')}}');"></div>
             </div>
             <div class="auto-container">
                 <div class="title-inner mb_60">
                     <div class="sec-title mb_20 light">
-                        <span class="sub-title"># About The Events</span>
-                        <h2>Advancing Craft Connect <br>People</h2>
+                        <h2>Recreational Services</h2>
                     </div>
-                    <p>With our passion, knowledge, creative flair and inspiration, we are <br>dedicated in helping you to achieve your dream wedding day.</p>
+                    <p>With our passion, knowledge, creativity we give a  <br>Complementary Enhanced Services for Corporate Events</p>
                 </div>
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-6 col-sm-12 conference-block">
                         <div class="conference-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="{{asset('theme/assets/images/resource/conference-1.jpg')}}" alt=""></figure>
+                                <figure class="image-box"><img class="min-500-extra" src="{{asset('theme/assets/images/tanzania-night-game-img-gal3-1.jpg')}}" alt=""></figure>
                                 <div class="lower-content">
-                                    <h3><a href="{{url('/')}}">Top Conference: Clients in Control Building Demand-Driven IT Systems</a></h3>
-                                    <p>Nulla in mattis arcu ultrices suspendisse sed amet pulvinarert aliquam. Condimentum congue morbi risus platea. Ante elittg dolor augue tellus turpis tortor</p>
+                                    <h3><a href="{{url('/')}}">Game drives</a></h3>
+
                                     <div class="link"><a href="{{url('/')}}">Read More</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 col-sm-12 conference-block">
                         <div class="conference-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="{{asset('theme/assets/images/resource/conference-2.jpg')}}" alt=""></figure>
+                                <figure class="image-box"><img class="min-500-extra" src="{{asset('theme/assets/images/pexels-joerg-mangelsen-337913024-24738435.jpg')}}" alt=""></figure>
                                 <div class="lower-content">
-                                    <h3><a href="{{url('/')}}">4 Workshops: Modern Technology Training Courses with Best Leaders</a></h3>
-                                    <p>Nulla in mattis arcu ultrices suspendisse sed amet pulvinarert aliquam. Condimentum congue morbi risus platea. Ante elittg dolor augue tellus turpis tortor</p>
+                                    <h3><a href="{{url('/')}}">Airport Transfers</a></h3>
+
                                     <div class="link"><a href="{{url('/')}}">Read More</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 col-sm-12 conference-block">
                         <div class="conference-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="{{asset('theme/assets/images/resource/conference-3.jpg')}}" alt=""></figure>
+                                <figure class="image-box"><img class="min-500-extra" src="{{asset('theme/assets/images/Spandex.png')}}" alt=""></figure>
                                 <div class="lower-content">
-                                    <h3><a href="{{url('/')}}">Worldwide Speakers Talks: Mind-blowing Talks from Leading IT Minds</a></h3>
-                                    <p>Nulla in mattis arcu ultrices suspendisse sed amet pulvinarert aliquam. Condimentum congue morbi risus platea. Ante elittg dolor augue tellus turpis tortor</p>
+                                    <h3><a href="{{url('/')}}">Private parties</a></h3>
+
                                     <div class="link"><a href="{{url('/')}}">Read More</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
+
+
                 </div>
             </div>
         </section>
@@ -501,9 +546,9 @@
             </div>
             <div class="auto-container">
                 <div class="inner-box">
-                    <span># Ticket</span>
+                    <span># Bookings</span>
                     <h2>Having an Event in the near <br>Future</h2>
-                    <a href="{{url('/')}}" class="theme-btn btn-one">Engage Us Now</a>
+                    <a href="tel:+254 723 280 2602" class="theme-btn btn-one">Engage Us Now</a>
                 </div>
             </div>
         </section>
@@ -520,9 +565,9 @@
                 <div class="title-inner mb_60 centred">
                     <div class="sec-title centred mb_20">
                         <span class="sub-title"># Blogs</span>
-                        <h2>Latest Blog & News Event</h2>
+                        <h2>Latest Blog & News </h2>
                     </div>
-                    <p>With our passion, knowledge, creative flair and inspiration, <br>we are dedicated in helping.</p>
+                    <p>Stay updated with insights, trends, and stories <br>from the world of artisans.</p>
                 </div>
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
@@ -531,7 +576,7 @@
                                 <figure class="image-box"><a href="blog-details.html"><img src="{{asset('theme/assets/images/news/news-1.jpg')}}" alt=""></a></figure>
                                 <div class="lower-content">
                                     <ul class="info-list mb_15">
-                                        <li>April 25, 2022</li>
+                                        <li>April 25, 2024</li>
                                         <li>|</li>
                                         <li><a href="blog-details.html">by admin</a></li>
                                     </ul>
@@ -548,11 +593,11 @@
                                 <figure class="image-box"><a href="blog-details.html"><img src="{{asset('theme/assets/images/news/news-2.jpg')}}" alt=""></a></figure>
                                 <div class="lower-content">
                                     <ul class="info-list mb_15">
-                                        <li>April 25, 2022</li>
+                                        <li>April 25, 2024</li>
                                         <li>|</li>
                                         <li><a href="blog-details.html">by admin</a></li>
                                     </ul>
-                                    <h3><a href="blog-details.html">Brooklyn Beta was the most important conferen best tristique</a></h3>
+                                    <h3><a href="blog-details.html">Nairobi Beta was the most important conferen best tristique</a></h3>
                                     <p>Pellentesque quis scelerisque justo. Aenean mauris justo, sagittis ornare felis ut.</p>
                                     <div class="link"><a href="blog-details.html">Read More</a></div>
                                 </div>
@@ -565,7 +610,7 @@
                                 <figure class="image-box"><a href="blog-details.html"><img src="{{asset('theme/assets/images/news/news-3.jpg')}}" alt=""></a></figure>
                                 <div class="lower-content">
                                     <ul class="info-list mb_15">
-                                        <li>April 25, 2022</li>
+                                        <li>April 25, 2024</li>
                                         <li>|</li>
                                         <li><a href="blog-details.html">by admin</a></li>
                                     </ul>

@@ -21,8 +21,9 @@
   display: block;
   border-radius: 20px;
   overflow: hidden;
-  padding: 330px 60px 70px 60px;
+  padding: 330px 10px 70px 10px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .gallery-block-one .inner-box .bg-layer{
@@ -236,7 +237,6 @@
 @media only screen and (max-width: 499px){
 
 }
-
 
 
 
