@@ -1,6 +1,8 @@
 @extends('master-page-2')
 
 @section('content')
+@foreach ($Service as $Service)
+
 
 <!-- page-title -->
 <section class="page-title">
@@ -14,9 +16,9 @@
             <ul class="bread-crumb clearfix mb_20">
                 <li><a href="{{url('/')}}"># Home</a></li>
                 <li>&nbsp;-&nbsp;</li>
-                <li>Single Service</li>
+                <li>{{$Service->title}}</li>
             </ul>
-            <h1>Single Service</h1>
+            <h1>{{$Service->title}}</h1>
         </div>
     </div>
 </section>
@@ -31,33 +33,21 @@
     </div>
     <div class="auto-container">
         <div class="row align-items-center">
-            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+            <div class="col-lg-7 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
                     <div class="sec-title mb_20">
-                        <span class="sub-title"># </span>
-                        <h3>Service Title</h3>
+                        <span class="sub-title">Blue Heights Events Limited </span>
+                        <h3>{{$Service->title}}</h3>
                     </div>
-                    <div class="text-boxs">
-                        <p>
-                            The Blue Heights Events Ltd is an event management company that was
-                            established to provide events management services to various corporate
-                            clients and enable them achieve memorable events and effectively promote
-                            their brand.<br><br>
-                            We specialize in providing premium services to corporate clients both the
-                            private and public sectors of the economy. We are committed to providing
-                            innovative solutions spanning; Design of exhibition floor plans, provision of
-                            quality shell scheme structures, media coverage and comprehensive
-                            provision of all conferencing equipment that gurantees our clientele
-                            satisfaction.
-                            <br><br>
-                        </p>
+                    <div class="text-box">
+                        {!!html_entity_decode($Service->content)!!}
 
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+            <div class="col-lg-5 col-md-12 col-sm-12 image-column">
                 <div class="image-box">
-                    <figure class="image image-1"><img src="{{asset('theme/assets/images/IMG_20220419_111200.png')}}" alt=""></figure>
+                    <figure class="image image-1"><img src="{{url('/')}}/theme/assets/images/{{$Service->image}}" alt=""></figure>
                 </div>
             </div>
         </div>
@@ -65,5 +55,5 @@
 </section>
 <!-- about-style-two end -->
 
-
+@endforeach
 @endsection

@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Blueheights - HTML 5 Template Preview</title>
+    <meta name="title" content="Event management company in Nairobi - Blue Heights Events Limited">
+    <meta name="description" content="Blue Heights Events Ltd is a premier event management company specializing in corporate events. With 6 years of experience, we provide innovative solutions from exhibition floor plans to interior decor, media coverage, and conferencing equipment, ensuring memorable and successful events.">
+    <meta name="keywords" content="event management, corporate events, exhibition design, interior decor, media coverage, conferencing equipment, Blue Heights Events Ltd">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Blue Heights Events Ltd">
 
-<!-- Fav Icon -->
-<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Event management company in Nairobi - Blue Heights Events Limited">
+    <meta property="og:description" content="Blue Heights Events Ltd is a premier event management company specializing in corporate events. With 6 years of experience, we provide innovative solutions from exhibition floor plans to interior decor, media coverage, and conferencing equipment, ensuring memorable and successful events.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{url('/')}}">
+    <meta property="og:image" content="{{url('/')}}/theme/assets/images/menulogo.png">
+    <meta property="og:site_name" content="Blue Heights Events Ltd">
 
-<!-- Google Fonts -->
-<link href="../css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link href="../css2-1?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Event management company in Nairobi - Blue Heights Events Limited</title>
 
-<!-- Stylesheets -->
-<link href="{{asset('theme/assets/css/font-awesome-all.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/flaticon.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/owl.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/bootstrap.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/jquery.fancybox.min.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/animate.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/nice-select.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/elpath.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/color.css')}}" id="jssDefault" rel="stylesheet">
-<link href="{{asset('theme/assets/css/rtl.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/style.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/banner.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/mission.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/about.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/gallery.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/clients.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/conference.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/testimonial.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/cta.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/news.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/responsive.css')}}" rel="stylesheet">
+    <!-- Fav Icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="../css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../css2-1?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href="{{asset('theme/assets/css/font-awesome-all.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/flaticon.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/owl.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/jquery.fancybox.min.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/animate.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/nice-select.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/elpath.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/color.css')}}" id="jssDefault" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/rtl.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/module-css/banner.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/module-css/mission.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/module-css/about.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/module-css/gallery.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/module-css/clients.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/module-css/conference.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/module-css/testimonial.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/module-css/cta.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/module-css/news.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/assets/css/responsive.css')}}" rel="stylesheet">
 
 </head>
 
@@ -126,11 +140,11 @@
                                         <li class="current dropdown"><a href="#">Home</a>
 
                                         </li>
-                                        <li class="dropdown"><a href="#about">About</a>
+                                        <li class="dropdown"><a href="{{url('/')}}#about">About</a>
 
                                         </li>
 
-                                        <li class="dropdown"><a href="#">Portfolio</a>
+                                        <li class="dropdown"><a href="{{url('/our-portfolio ')}}">Portfolio</a>
 
                                         </li>
                                         <li><a href="#services">Services</a></li>
@@ -322,77 +336,36 @@
                         </p>
                     </div>
                 </div>
+                <?php
+                    $Services = DB::table('services')->where('main','1')->where('extra','0')->get();
+                ?>
+                @foreach ($Services as $Ser)
                 <div class="col-lg-7 col-md-12 col-sm-12 gallery-block">
                     <div class="gallery-block-one ml_40">
                         <div class="inner-box">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/Thandi-Photography-17.jpg')}}'); background-size:cover; background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
-                            <h2><a href="{{url('/')}}">Corporate Events</a></h2>
-                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
+                            <div class="bg-layer" style="background-image: url('{{url('/')}}/theme/assets/images/{{$Ser->image}}'); background-size:cover; background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
+                            <h2><a href="{{url('/')}}/our-services/{{$Ser->slung}}">{{$Ser->title}}</a></h2>
+                            <div class="link"><a href="{{url('/')}}/our-services/{{$Ser->slung}}"><i class="icon-25"></i></a></div>
                         </div>
                     </div>
                 </div>
+                @endforeach
 
                 {{--  --}}
+                <?php
+                    $Services = DB::table('services')->where('main','0')->where('extra','0')->limit('6')->get();
+                ?>
+                @foreach ($Services as $Ser)
                 <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
                     <div class="gallery-block-one">
                         <div class="inner-box min-500">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/a7.jpeg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
-                            <h2><a href="{{url('/')}}">Exhibition Booths</a></h2>
-                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
+                            <div class="bg-layer" style="background-image: url('{{url('/')}}/theme/assets/images/{{$Ser->image}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
+                            <h2><a href="{{url('/')}}/our-services/{{$Ser->slung}}">{{$Ser->title}}</a></h2>
+                            <div class="link"><a href="{{url('/')}}/our-services/{{$Ser->slung}}"><i class="icon-25"></i></a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
-                    <div class="gallery-block-one">
-                        <div class="inner-box min-500">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/Turf.png')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
-                            <h2><a href="{{url('/')}}">Events Logistics</a></h2>
-                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
-                    <div class="gallery-block-one">
-                        <div class="inner-box min-500">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/20230623_140625.jpg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
-                            <h2><a href="{{url('/')}}">Branding</a></h2>
-                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                {{--  --}}
-                <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
-                    <div class="gallery-block-one">
-                        <div class="inner-box min-500">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/20230623_141436.jpg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
-                            <h2><a href="{{url('/')}}">Online and Onsite
-                                Registration</a></h2>
-                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
-                    <div class="gallery-block-one">
-                        <div class="inner-box min-500">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/pexels-ninosouza-2883051.jpg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
-                            <h2><a href="{{url('/')}}">Live Streaming</a></h2>
-                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 gallery-block">
-                    <div class="gallery-block-one">
-                        <div class="inner-box min-500">
-                            <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/20230810_003453.jpg')}}'); background-color: rgba(37,48,102,.5); background-blend-mode: multiply;"></div>
-                            <h2><a href="{{url('/')}}">Audio Visual
-                                Equipment</a></h2>
-                            <div class="link"><a href="{{url('/')}}"><i class="icon-25"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                {{--  --}}
-
-
+                @endforeach
 
             </div>
         </div>
@@ -443,48 +416,23 @@
                     <p>With our passion, knowledge, creativity we give a  <br>Complementary Enhanced Services for Corporate Events</p>
                 </div>
                 <div class="row clearfix">
+                    <?php
+                        $Services = DB::table('services')->where('main','0')->where('extra','1')->limit('6')->get();
+                    ?>
+                    @foreach ($Services as $Ser)
                     <div class="col-lg-4 col-md-6 col-sm-12 conference-block">
                         <div class="conference-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img class="min-500-extra" src="{{asset('theme/assets/images/tanzania-night-game-img-gal3-1.jpg')}}" alt=""></figure>
+                                <figure class="image-box"><img class="min-500-extra" src="{{url('/')}}/theme/assets/images/{{$Ser->image}}" alt=""></figure>
                                 <div class="lower-content">
-                                    <h3><a href="{{url('/')}}">Game drives</a></h3>
+                                    <h3><a href="{{url('/')}}/our-services/{{$Ser->slung}}">{{$Ser->title}}</a></h3>
 
-                                    <div class="link"><a href="{{url('/')}}">Read More</a></div>
+                                    <div class="link"><a class="theme-btn btn-two" href="{{url('/')}}/our-services/{{$Ser->slung}}">Read More</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 conference-block">
-                        <div class="conference-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img class="min-500-extra" src="{{asset('theme/assets/images/pexels-joerg-mangelsen-337913024-24738435.jpg')}}" alt=""></figure>
-                                <div class="lower-content">
-                                    <h3><a href="{{url('/')}}">Airport Transfers</a></h3>
-
-                                    <div class="link"><a href="{{url('/')}}">Read More</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 conference-block">
-                        <div class="conference-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img class="min-500-extra" src="{{asset('theme/assets/images/Spandex.png')}}" alt=""></figure>
-                                <div class="lower-content">
-                                    <h3><a href="{{url('/')}}">Private parties</a></h3>
-
-                                    <div class="link"><a href="{{url('/')}}">Read More</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
+                    @endforeach
                 </div>
             </div>
         </section>
