@@ -1,7 +1,7 @@
 @extends('master-page')
 
 @section('content')
-
+@foreach ($Portfolio as $folio)
 <!-- page-title -->
 <section class="page-title">
     <div class="bg-layer" style="background-image: url('{{asset('theme/assets/images/_MG_5001.jpg')}}');"></div>
@@ -14,9 +14,11 @@
             <ul class="bread-crumb clearfix mb_20">
                 <li><a href="{{url('/')}}"># Home</a></li>
                 <li>&nbsp;-&nbsp;</li>
-                <li>Single Portfolios</li>
+                <li>Our Projects</li>
+                <li>&nbsp;-&nbsp;</li>
+                <li>{{$folio->title}}</li>
             </ul>
-            <h1>Single Portfolio</h1>
+            <h1>{{$folio->title}}</h1>
         </div>
     </div>
 </section>
@@ -33,7 +35,7 @@
                             <div class="title-inner">
                                 <div class="sec-title mb_20">
                                     <span class="sub-title"># Our Portfolio</span>
-                                    <h2>Project Name </h2>
+                                    <h2> {{$folio->title}} </h2>
                                 </div>
                                 <p>
                                     At Blueheights Events Limited, our partners and clients are the cornerstone of our success. We take pride in collaborating with a diverse range of organizations and individuals to create memorable events.
@@ -55,22 +57,25 @@
             <div class="auto-container">
                 <div class="sortable-masonry">
                     <div class="items-container row clearfix">
-
+                        <?php
+                           $gallery = DB::table('galleries')->where('portfolio_id',$folio->id)->get();
+                        ?>
+                        @foreach ($gallery as $gal)
                         <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all technology grocery hospital">
                             <div class="gallery-block-two">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="{{asset('theme/assets/images/gallery/gallery-5.jpg')}}" alt=""></figure>
-                                    <div class="link"><a href="#"><i class="icon-25"></i></a></div>
+                                    <figure class="image-box"><img src="{{url('/')}}/uploads/portfolio/{{$gal->image}}" alt=""></figure>
                                 </div>
                             </div>
                         </div>
-
-
+                        @endforeach
                     </div>
                 </div>
             </div>
         </section>
         <!-- gallery-style-two end -->
+
+@endforeach
 
 
 @endsection

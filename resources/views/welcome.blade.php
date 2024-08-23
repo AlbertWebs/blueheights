@@ -304,7 +304,7 @@
                                 satisfaction.
                                 <br><br>
                             </p>
-                            <a href="{{url('/')}}" class="theme-btn btn-one">Learn More</a>
+                            <a href="{{url('/')}}/about-us" class="theme-btn btn-one">Learn More</a>
                         </div>
                     </div>
                 </div>

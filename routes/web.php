@@ -22,24 +22,19 @@ Route::get('/our-portfolio', function () {
     return view('portfolio');
 });
 
-Route::get('/our-portfolio/{slung}', function () {
-    return view('portfolio_single');
-});
 
 Route::get('/our-services', function () {
     return view('portfolio');
 });
 
-// Route::get('/our-services/{slung}', function ($slung) {
-//     $Service = DB::table('services')->where('slung',$slung)->get();
-//     return view('service_single');
-// });
+
 
 Route::get('/contact-us', function () {
     return view('portfolio');
 });
 
-
+Route::get('/our-services/{slung}', [App\Http\Controllers\HomeController::class, 'services'])->name('our-services');
+Route::get('/our-portfolio/{slung}', [App\Http\Controllers\HomeController::class, 'portfolio'])->name('our-portfolio');
 Auth::routes();
 
-Route::get('/our-services/{slung}', [App\Http\Controllers\HomeController::class, 'services'])->name('our-services');
+// Route::get('/our-services/{slung}', [App\Http\Controllers\HomeController::class, 'services'])->name('our-services');

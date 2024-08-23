@@ -27,4 +27,12 @@ class HomeController extends Controller
         $Service = DB::table('services')->where('slung',$slung)->get();
         return view('service_single', compact('Service'));
     }
+
+    public function portfolio($slung)
+    {
+        $Portfolio = DB::table('portfolios')->where('slung',$slung)->get();
+        return view('portfolio_single', compact('Portfolio'));
+    }
+
+
 }
